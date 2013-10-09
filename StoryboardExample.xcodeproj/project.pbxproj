@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		997A055C1805AB37002D646E /* M3SettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A055B1805AB37002D646E /* M3SettingsNavigationController.m */; };
 		99D05BB218055E3100715F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB118055E3100715F09 /* Foundation.framework */; };
 		99D05BB418055E3100715F09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB318055E3100715F09 /* CoreGraphics.framework */; };
 		99D05BB618055E3100715F09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB518055E3100715F09 /* UIKit.framework */; };
 		99D05BBC18055E3100715F09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BBA18055E3100715F09 /* InfoPlist.strings */; };
 		99D05BBE18055E3100715F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BBD18055E3100715F09 /* main.m */; };
 		99D05BC218055E3100715F09 /* M3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BC118055E3100715F09 /* M3AppDelegate.m */; };
-		99D05BC518055E3100715F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BC318055E3100715F09 /* Main.storyboard */; };
-		99D05BC818055E3100715F09 /* M3MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BC718055E3100715F09 /* M3MasterViewController.m */; };
-		99D05BCB18055E3100715F09 /* M3DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BCA18055E3100715F09 /* M3DetailViewController.m */; };
 		99D05BCD18055E3100715F09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BCC18055E3100715F09 /* Images.xcassets */; };
 		99D05BD418055E3100715F09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BD318055E3100715F09 /* XCTest.framework */; };
 		99D05BD518055E3100715F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB118055E3100715F09 /* Foundation.framework */; };
 		99D05BD618055E3100715F09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB518055E3100715F09 /* UIKit.framework */; };
 		99D05BDE18055E3100715F09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BDC18055E3100715F09 /* InfoPlist.strings */; };
 		99D05BE018055E3100715F09 /* StoryboardExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BDF18055E3100715F09 /* StoryboardExampleTests.m */; };
+		99D05BEA18055ECE00715F09 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BE918055ECE00715F09 /* Data.plist */; };
+		99D05BED18055FD000715F09 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BEB18055FD000715F09 /* image2.png */; };
+		99D05BEE18055FD000715F09 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D05BEC18055FD000715F09 /* image1.png */; };
+		99D05BF11805605600715F09 /* M3AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BF01805605600715F09 /* M3AppController.m */; };
+		99D05BF41805606900715F09 /* M3EntriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BF31805606900715F09 /* M3EntriesViewController.m */; };
+		99D05BF71805607600715F09 /* M3EntryDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BF61805607600715F09 /* M3EntryDetailsViewController.m */; };
+		99D05BFA180560BC00715F09 /* M3EntryDetailsContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BF9180560BC00715F09 /* M3EntryDetailsContentView.m */; };
+		99D05BFD180560CE00715F09 /* M3EntryMoreDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BFC180560CE00715F09 /* M3EntryMoreDetailsViewController.m */; };
+		99D05C00180560D700715F09 /* M3SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05BFF180560D700715F09 /* M3SettingsViewController.m */; };
+		99D05C061805618B00715F09 /* M3EntriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C051805618B00715F09 /* M3EntriesController.m */; };
+		99D05C091805619300715F09 /* M3Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C081805619300715F09 /* M3Entry.m */; };
+		99D05C0C180561A100715F09 /* M3AppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C0B180561A100715F09 /* M3AppFactory.m */; };
+		99D05C0F1805681A00715F09 /* M3EntriesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C0E1805681A00715F09 /* M3EntriesNavigationController.m */; };
+		99D05C1618056A0000715F09 /* Entries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D05C1418056A0000715F09 /* Entries.storyboard */; };
+		99D05C1918056A0F00715F09 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D05C1718056A0F00715F09 /* Settings.storyboard */; };
+		99D05C1C18056A2A00715F09 /* EntryDetailsContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D05C1A18056A2A00715F09 /* EntryDetailsContentView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		997A055A1805AB37002D646E /* M3SettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3SettingsNavigationController.h; sourceTree = "<group>"; };
+		997A055B1805AB37002D646E /* M3SettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3SettingsNavigationController.m; sourceTree = "<group>"; };
 		99D05BAE18055E3100715F09 /* StoryboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D05BB118055E3100715F09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99D05BB318055E3100715F09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,17 +61,38 @@
 		99D05BBF18055E3100715F09 /* StoryboardExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardExample-Prefix.pch"; sourceTree = "<group>"; };
 		99D05BC018055E3100715F09 /* M3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3AppDelegate.h; sourceTree = "<group>"; };
 		99D05BC118055E3100715F09 /* M3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3AppDelegate.m; sourceTree = "<group>"; };
-		99D05BC418055E3100715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		99D05BC618055E3100715F09 /* M3MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3MasterViewController.h; sourceTree = "<group>"; };
-		99D05BC718055E3100715F09 /* M3MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3MasterViewController.m; sourceTree = "<group>"; };
-		99D05BC918055E3100715F09 /* M3DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = M3DetailViewController.h; sourceTree = "<group>"; };
-		99D05BCA18055E3100715F09 /* M3DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M3DetailViewController.m; sourceTree = "<group>"; };
 		99D05BCC18055E3100715F09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		99D05BD218055E3100715F09 /* StoryboardExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D05BD318055E3100715F09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		99D05BDB18055E3100715F09 /* StoryboardExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardExampleTests-Info.plist"; sourceTree = "<group>"; };
 		99D05BDD18055E3100715F09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		99D05BDF18055E3100715F09 /* StoryboardExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardExampleTests.m; sourceTree = "<group>"; };
+		99D05BE918055ECE00715F09 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		99D05BEB18055FD000715F09 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		99D05BEC18055FD000715F09 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		99D05BEF1805605600715F09 /* M3AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3AppController.h; sourceTree = "<group>"; };
+		99D05BF01805605600715F09 /* M3AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3AppController.m; sourceTree = "<group>"; };
+		99D05BF21805606900715F09 /* M3EntriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntriesViewController.h; sourceTree = "<group>"; };
+		99D05BF31805606900715F09 /* M3EntriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntriesViewController.m; sourceTree = "<group>"; };
+		99D05BF51805607600715F09 /* M3EntryDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntryDetailsViewController.h; sourceTree = "<group>"; };
+		99D05BF61805607600715F09 /* M3EntryDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntryDetailsViewController.m; sourceTree = "<group>"; };
+		99D05BF8180560BC00715F09 /* M3EntryDetailsContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntryDetailsContentView.h; sourceTree = "<group>"; };
+		99D05BF9180560BC00715F09 /* M3EntryDetailsContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntryDetailsContentView.m; sourceTree = "<group>"; };
+		99D05BFB180560CE00715F09 /* M3EntryMoreDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntryMoreDetailsViewController.h; sourceTree = "<group>"; };
+		99D05BFC180560CE00715F09 /* M3EntryMoreDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntryMoreDetailsViewController.m; sourceTree = "<group>"; };
+		99D05BFE180560D700715F09 /* M3SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3SettingsViewController.h; sourceTree = "<group>"; };
+		99D05BFF180560D700715F09 /* M3SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3SettingsViewController.m; sourceTree = "<group>"; };
+		99D05C041805618B00715F09 /* M3EntriesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntriesController.h; sourceTree = "<group>"; };
+		99D05C051805618B00715F09 /* M3EntriesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntriesController.m; sourceTree = "<group>"; };
+		99D05C071805619300715F09 /* M3Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3Entry.h; sourceTree = "<group>"; };
+		99D05C081805619300715F09 /* M3Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3Entry.m; sourceTree = "<group>"; };
+		99D05C0A180561A100715F09 /* M3AppFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3AppFactory.h; sourceTree = "<group>"; };
+		99D05C0B180561A100715F09 /* M3AppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3AppFactory.m; sourceTree = "<group>"; };
+		99D05C0D1805681A00715F09 /* M3EntriesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntriesNavigationController.h; sourceTree = "<group>"; };
+		99D05C0E1805681A00715F09 /* M3EntriesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntriesNavigationController.m; sourceTree = "<group>"; };
+		99D05C1518056A0000715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Entries.storyboard; sourceTree = "<group>"; };
+		99D05C1818056A0F00715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
+		99D05C1B18056A2A00715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/EntryDetailsContentView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +154,14 @@
 			children = (
 				99D05BC018055E3100715F09 /* M3AppDelegate.h */,
 				99D05BC118055E3100715F09 /* M3AppDelegate.m */,
-				99D05BC318055E3100715F09 /* Main.storyboard */,
-				99D05BC618055E3100715F09 /* M3MasterViewController.h */,
-				99D05BC718055E3100715F09 /* M3MasterViewController.m */,
-				99D05BC918055E3100715F09 /* M3DetailViewController.h */,
-				99D05BCA18055E3100715F09 /* M3DetailViewController.m */,
+				99D05BEF1805605600715F09 /* M3AppController.h */,
+				99D05BF01805605600715F09 /* M3AppController.m */,
+				99D05C0A180561A100715F09 /* M3AppFactory.h */,
+				99D05C0B180561A100715F09 /* M3AppFactory.m */,
+				99D05C01180560E800715F09 /* Entries */,
+				99D05C02180560EE00715F09 /* Settings */,
+				99D05C031805617500715F09 /* Model */,
+				99D05C101805693400715F09 /* Storyboards */,
 				99D05BCC18055E3100715F09 /* Images.xcassets */,
 				99D05BB818055E3100715F09 /* Supporting Files */,
 			);
@@ -135,6 +175,9 @@
 				99D05BBA18055E3100715F09 /* InfoPlist.strings */,
 				99D05BBD18055E3100715F09 /* main.m */,
 				99D05BBF18055E3100715F09 /* StoryboardExample-Prefix.pch */,
+				99D05BE918055ECE00715F09 /* Data.plist */,
+				99D05BEB18055FD000715F09 /* image2.png */,
+				99D05BEC18055FD000715F09 /* image1.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +198,55 @@
 				99D05BDC18055E3100715F09 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99D05C01180560E800715F09 /* Entries */ = {
+			isa = PBXGroup;
+			children = (
+				99D05C0D1805681A00715F09 /* M3EntriesNavigationController.h */,
+				99D05C0E1805681A00715F09 /* M3EntriesNavigationController.m */,
+				99D05BF21805606900715F09 /* M3EntriesViewController.h */,
+				99D05BF31805606900715F09 /* M3EntriesViewController.m */,
+				99D05BF51805607600715F09 /* M3EntryDetailsViewController.h */,
+				99D05BF61805607600715F09 /* M3EntryDetailsViewController.m */,
+				99D05BF8180560BC00715F09 /* M3EntryDetailsContentView.h */,
+				99D05BF9180560BC00715F09 /* M3EntryDetailsContentView.m */,
+				99D05BFB180560CE00715F09 /* M3EntryMoreDetailsViewController.h */,
+				99D05BFC180560CE00715F09 /* M3EntryMoreDetailsViewController.m */,
+			);
+			name = Entries;
+			sourceTree = "<group>";
+		};
+		99D05C02180560EE00715F09 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				997A055A1805AB37002D646E /* M3SettingsNavigationController.h */,
+				997A055B1805AB37002D646E /* M3SettingsNavigationController.m */,
+				99D05BFE180560D700715F09 /* M3SettingsViewController.h */,
+				99D05BFF180560D700715F09 /* M3SettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		99D05C031805617500715F09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99D05C041805618B00715F09 /* M3EntriesController.h */,
+				99D05C051805618B00715F09 /* M3EntriesController.m */,
+				99D05C071805619300715F09 /* M3Entry.h */,
+				99D05C081805619300715F09 /* M3Entry.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		99D05C101805693400715F09 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				99D05C1418056A0000715F09 /* Entries.storyboard */,
+				99D05C1718056A0F00715F09 /* Settings.storyboard */,
+				99D05C1A18056A2A00715F09 /* EntryDetailsContentView.xib */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +327,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D05BCD18055E3100715F09 /* Images.xcassets in Resources */,
+				99D05C1618056A0000715F09 /* Entries.storyboard in Resources */,
+				99D05C1C18056A2A00715F09 /* EntryDetailsContentView.xib in Resources */,
+				99D05BED18055FD000715F09 /* image2.png in Resources */,
 				99D05BBC18055E3100715F09 /* InfoPlist.strings in Resources */,
-				99D05BC518055E3100715F09 /* Main.storyboard in Resources */,
+				99D05BEE18055FD000715F09 /* image1.png in Resources */,
+				99D05BEA18055ECE00715F09 /* Data.plist in Resources */,
+				99D05C1918056A0F00715F09 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,9 +353,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D05BC218055E3100715F09 /* M3AppDelegate.m in Sources */,
-				99D05BCB18055E3100715F09 /* M3DetailViewController.m in Sources */,
+				99D05BFD180560CE00715F09 /* M3EntryMoreDetailsViewController.m in Sources */,
+				99D05BF71805607600715F09 /* M3EntryDetailsViewController.m in Sources */,
+				997A055C1805AB37002D646E /* M3SettingsNavigationController.m in Sources */,
+				99D05C061805618B00715F09 /* M3EntriesController.m in Sources */,
+				99D05C0F1805681A00715F09 /* M3EntriesNavigationController.m in Sources */,
+				99D05C091805619300715F09 /* M3Entry.m in Sources */,
+				99D05BF41805606900715F09 /* M3EntriesViewController.m in Sources */,
+				99D05BF11805605600715F09 /* M3AppController.m in Sources */,
+				99D05C00180560D700715F09 /* M3SettingsViewController.m in Sources */,
+				99D05C0C180561A100715F09 /* M3AppFactory.m in Sources */,
+				99D05BFA180560BC00715F09 /* M3EntryDetailsContentView.m in Sources */,
 				99D05BBE18055E3100715F09 /* main.m in Sources */,
-				99D05BC818055E3100715F09 /* M3MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,20 +395,36 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		99D05BC318055E3100715F09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99D05BC418055E3100715F09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99D05BDC18055E3100715F09 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				99D05BDD18055E3100715F09 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99D05C1418056A0000715F09 /* Entries.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D05C1518056A0000715F09 /* Base */,
+			);
+			name = Entries.storyboard;
+			sourceTree = "<group>";
+		};
+		99D05C1718056A0F00715F09 /* Settings.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D05C1818056A0F00715F09 /* Base */,
+			);
+			name = Settings.storyboard;
+			sourceTree = "<group>";
+		};
+		99D05C1A18056A2A00715F09 /* EntryDetailsContentView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99D05C1B18056A2A00715F09 /* Base */,
+			);
+			name = EntryDetailsContentView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -467,6 +589,7 @@
 				99D05BE518055E3100715F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99D05BE618055E3100715F09 /* Build configuration list for PBXNativeTarget "StoryboardExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +598,7 @@
 				99D05BE818055E3100715F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>This is item one</string>
+		<key>body</key>
+		<string>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse volutpat lectus eu pharetra dapibus. Mauris rutrum metus ac imperdiet vehicula. Fusce at elit eu tortor scelerisque gravida. Sed sed rhoncus odio. In hac habitasse platea dictumst. Nam id mauris lobortis, placerat sapien eget, suscipit nulla. Quisque cursus tellus eget enim facilisis, vitae sodales nibh imperdiet. Quisque semper leo ut volutpat egestas.</string>
+		<key>image</key>
+		<string>image1.png</string>
+		<key>moreDetails</key>
+		<string>Nulla pulvinar eleifend justo id sollicitudin. Nullam luctus convallis ipsum nec interdum. Curabitur ac aliquet leo. Pellentesque blandit gravida mattis. Cras feugiat pellentesque malesuada. Vivamus nisi orci, lacinia ac vestibulum vitae, rutrum malesuada augue. Phasellus id enim velit. Maecenas malesuada egestas tellus, ullamcorper fringilla diam tempor vitae. Etiam suscipit orci dolor, id semper eros facilisis sit amet. In arcu augue, dignissim dignissim gravida eget, aliquam sit amet sem. Nam eget quam sit amet purus mattis rutrum at eu tortor. Duis et massa et eros porttitor interdum. Etiam eu odio a quam ultricies mattis sed sed nulla.</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>This item has a much longer title that should wrap across multiple lines</string>
+		<key>body</key>
+		<string>Vivamus hendrerit eros felis, vel laoreet augue semper in. Integer feugiat sapien eu est condimentum, et vulputate sem mattis. Aenean volutpat quis odio a accumsan. Sed luctus bibendum ipsum eget aliquet. Vivamus quis nibh non neque auctor faucibus sed ut magna. Nam venenatis mauris at sem euismod, nec vestibulum magna viverra. In sodales mi nisi, sit amet adipiscing metus luctus sit amet. Donec porttitor nisl nec orci ultrices, ut dapibus tortor placerat. Ut scelerisque dui tellus, ac luctus ipsum convallis vitae. Maecenas lacinia sed mauris a vehicula. Sed vel mollis risus. Mauris sed aliquet neque. Nam congue venenatis dapibus. Nunc consectetur ipsum eget eros vulputate luctus. Cras fringilla magna eget mi auctor, sed tempor enim tristique. Duis imperdiet libero felis, in porta velit facilisis eu.</string>
+		<key>image</key>
+		<string>image2.png</string>
+		<key>moreDetails</key>
+		<string>Nunc consequat justo at luctus porttitor. Duis porta interdum porta. Integer id semper dui. Cras tincidunt turpis risus, in ornare enim rhoncus sed. Duis nec quam non tellus tincidunt mattis. Curabitur lobortis hendrerit malesuada. Vestibulum sed consequat est. In cursus erat eu nunc egestas, sit amet aliquam arcu faucibus. Fusce sodales egestas semper. Fusce auctor adipiscing nulla, at convallis nisl. Sed enim tortor, auctor eu malesuada a, tincidunt quis tellus. Donec sit amet elementum nulla. Quisque eu ipsum eu lorem consequat pulvinar at sit amet urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+	</dict>
+</array>
+</plist>
