@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="894" y="218"/>
         </scene>
-        <!--Settings Navigation Controller-->
+        <!--Navigation Controller-->
         <scene sceneID="XLI-vS-rhT">
             <objects>
-                <navigationController definesPresentationContext="YES" id="nVB-CF-JOd" customClass="M3SettingsNavigationController" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="nVB-CF-JOd" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dh7-bD-960">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

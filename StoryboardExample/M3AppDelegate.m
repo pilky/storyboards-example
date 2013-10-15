@@ -12,7 +12,6 @@
 
 @implementation M3AppDelegate {
 	M3AppController *appController;
-	UIWindow *window;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

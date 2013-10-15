@@ -28,7 +28,6 @@
 }
 
 - (void)reloadData {
-	NSLog(@"%f", [self.nameLabel preferredMaxLayoutWidth]);
 	[self.nameLabel setText:self.entry.name];
 	[self.bodyLabel setText:self.entry.body];
 	[self.imageView setImage:self.entry.image];

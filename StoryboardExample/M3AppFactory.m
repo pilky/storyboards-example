@@ -7,21 +7,19 @@
 //
 
 #import "M3AppFactory.h"
-#import "M3EntriesNavigationController.h"
 #import "M3EntriesViewController.h"
 #import "M3EntryDetailsViewController.h"
-#import "M3SettingsNavigationController.h"
 #import "M3SettingsViewController.h"
 #import "M3EntriesController.h"
 #import "M3Entry.h"
 
 @implementation M3AppFactory {
-	M3EntriesNavigationController *entriesNavigationController;
-	M3SettingsNavigationController *settingsNavigationController;
+	UINavigationController *entriesNavigationController;
+	UINavigationController *settingsNavigationController;
 	M3EntriesController *entriesController;
 }
 
-- (M3EntriesNavigationController *)entriesNavigationController {
+- (UINavigationController *)entriesNavigationController {
 	if (!entriesNavigationController) {
 		UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Entries" bundle:nil];
 		entriesNavigationController = [storyboard instantiateInitialViewController];
@@ -39,7 +37,7 @@
 	return controller;
 }
 
-- (M3SettingsNavigationController *)settingsNavigationController {
+- (UINavigationController *)settingsNavigationController {
 	if (!settingsNavigationController) {
 		UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Settings" bundle:nil];
 		settingsNavigationController = [storyboard instantiateInitialViewController];

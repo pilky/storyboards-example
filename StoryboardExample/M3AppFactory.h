@@ -8,17 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-@class M3AppController, M3EntriesNavigationController, M3EntryDetailsViewController, M3SettingsNavigationController, M3EntriesController;
+@class M3AppController, M3EntryDetailsViewController,  M3EntriesController;
 @class M3Entry;
 
 @interface M3AppFactory : NSObject
 
 @property (weak) M3AppController *appController;
 
-@property (readonly) M3EntriesNavigationController *entriesNavigationController;
+@property (readonly) UINavigationController *entriesNavigationController;
 - (M3EntryDetailsViewController *)entryDetailsViewControllerForEntry:(M3Entry *)aEntry;
 
-@property (readonly) M3SettingsNavigationController *settingsNavigationController;
+@property (readonly) UINavigationController *settingsNavigationController;
 
 @property (readonly) M3EntriesController *entriesController;
 

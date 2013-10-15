@@ -8,8 +8,6 @@
 
 #import "M3AppController.h"
 #import "M3AppFactory.h"
-#import "M3EntriesNavigationController.h"
-#import "M3SettingsNavigationController.h"
 #import "M3EntryDetailsViewController.h"
 
 @implementation M3AppController

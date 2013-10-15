@@ -40,7 +40,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="WzM-6Y-q71" kind="push" id="PYf-yx-WTG"/>
+                        <segue destination="WzM-6Y-q71" kind="push" identifier="showDetails" id="PYf-yx-WTG"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lfW-hG-viQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -69,7 +69,7 @@
                     <navigationItem key="navigationItem" id="Z0j-H8-I9E"/>
                     <connections>
                         <outlet property="scrollView" destination="oBA-bd-ue4" id="6Xc-gK-bx0"/>
-                        <segue destination="P14-Xe-Fdo" kind="push" id="x9q-WD-mLL"/>
+                        <segue destination="P14-Xe-Fdo" kind="push" identifier="showMoreDetails" id="x9q-WD-mLL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zDK-QY-y6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -108,10 +108,10 @@
             </objects>
             <point key="canvasLocation" x="1429" y="98"/>
         </scene>
-        <!--Entries Navigation Controller-->
+        <!--Navigation Controller-->
         <scene sceneID="VuJ-fv-EfF">
             <objects>
-                <navigationController definesPresentationContext="YES" id="Z2T-Gz-rMg" customClass="M3EntriesNavigationController" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="Z2T-Gz-rMg" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="02F-p4-cAH">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

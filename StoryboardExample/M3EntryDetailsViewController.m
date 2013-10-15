@@ -40,10 +40,6 @@
 	[self.contentView setEntry:entry];
 }
 
-
-
-
-
 - (IBAction)showMoreDetails:(id)sender {
 	M3EntryMoreDetailsViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"moreDetails"];
 	[controller setEntry:self.entry];

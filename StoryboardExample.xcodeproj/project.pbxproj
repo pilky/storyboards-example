@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		997A055C1805AB37002D646E /* M3SettingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997A055B1805AB37002D646E /* M3SettingsNavigationController.m */; };
 		99D05BB218055E3100715F09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB118055E3100715F09 /* Foundation.framework */; };
 		99D05BB418055E3100715F09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB318055E3100715F09 /* CoreGraphics.framework */; };
 		99D05BB618055E3100715F09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D05BB518055E3100715F09 /* UIKit.framework */; };
@@ -32,7 +31,6 @@
 		99D05C061805618B00715F09 /* M3EntriesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C051805618B00715F09 /* M3EntriesController.m */; };
 		99D05C091805619300715F09 /* M3Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C081805619300715F09 /* M3Entry.m */; };
 		99D05C0C180561A100715F09 /* M3AppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C0B180561A100715F09 /* M3AppFactory.m */; };
-		99D05C0F1805681A00715F09 /* M3EntriesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D05C0E1805681A00715F09 /* M3EntriesNavigationController.m */; };
 		99D05C1618056A0000715F09 /* Entries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D05C1418056A0000715F09 /* Entries.storyboard */; };
 		99D05C1918056A0F00715F09 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D05C1718056A0F00715F09 /* Settings.storyboard */; };
 		99D05C1C18056A2A00715F09 /* EntryDetailsContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99D05C1A18056A2A00715F09 /* EntryDetailsContentView.xib */; };
@@ -49,8 +47,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		997A055A1805AB37002D646E /* M3SettingsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3SettingsNavigationController.h; sourceTree = "<group>"; };
-		997A055B1805AB37002D646E /* M3SettingsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3SettingsNavigationController.m; sourceTree = "<group>"; };
 		99D05BAE18055E3100715F09 /* StoryboardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D05BB118055E3100715F09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		99D05BB318055E3100715F09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,8 +84,6 @@
 		99D05C081805619300715F09 /* M3Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3Entry.m; sourceTree = "<group>"; };
 		99D05C0A180561A100715F09 /* M3AppFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3AppFactory.h; sourceTree = "<group>"; };
 		99D05C0B180561A100715F09 /* M3AppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3AppFactory.m; sourceTree = "<group>"; };
-		99D05C0D1805681A00715F09 /* M3EntriesNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M3EntriesNavigationController.h; sourceTree = "<group>"; };
-		99D05C0E1805681A00715F09 /* M3EntriesNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M3EntriesNavigationController.m; sourceTree = "<group>"; };
 		99D05C1518056A0000715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Entries.storyboard; sourceTree = "<group>"; };
 		99D05C1818056A0F00715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
 		99D05C1B18056A2A00715F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/EntryDetailsContentView.xib; sourceTree = "<group>"; };
@@ -203,8 +197,6 @@
 		99D05C01180560E800715F09 /* Entries */ = {
 			isa = PBXGroup;
 			children = (
-				99D05C0D1805681A00715F09 /* M3EntriesNavigationController.h */,
-				99D05C0E1805681A00715F09 /* M3EntriesNavigationController.m */,
 				99D05BF21805606900715F09 /* M3EntriesViewController.h */,
 				99D05BF31805606900715F09 /* M3EntriesViewController.m */,
 				99D05BF51805607600715F09 /* M3EntryDetailsViewController.h */,
@@ -220,8 +212,6 @@
 		99D05C02180560EE00715F09 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				997A055A1805AB37002D646E /* M3SettingsNavigationController.h */,
-				997A055B1805AB37002D646E /* M3SettingsNavigationController.m */,
 				99D05BFE180560D700715F09 /* M3SettingsViewController.h */,
 				99D05BFF180560D700715F09 /* M3SettingsViewController.m */,
 			);
@@ -355,9 +345,7 @@
 				99D05BC218055E3100715F09 /* M3AppDelegate.m in Sources */,
 				99D05BFD180560CE00715F09 /* M3EntryMoreDetailsViewController.m in Sources */,
 				99D05BF71805607600715F09 /* M3EntryDetailsViewController.m in Sources */,
-				997A055C1805AB37002D646E /* M3SettingsNavigationController.m in Sources */,
 				99D05C061805618B00715F09 /* M3EntriesController.m in Sources */,
-				99D05C0F1805681A00715F09 /* M3EntriesNavigationController.m in Sources */,
 				99D05C091805619300715F09 /* M3Entry.m in Sources */,
 				99D05BF41805606900715F09 /* M3EntriesViewController.m in Sources */,
 				99D05BF11805605600715F09 /* M3AppController.m in Sources */,
